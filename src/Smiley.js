@@ -25,11 +25,15 @@ class Smiley extends Component {
 
     render() {
         return (
-            // <div className="Smiley">
-                <bouton onClick={this.randomNb} className="Smiley">
+            <div className="Smiley">
+                <span onClick={this.randomNb} className="Smiley">
                     <img src={this.state.iconSmiley} alt="smiley" />
-                </bouton>
-            // </div>
+                </span>
+            </div>
+
+        // <div className="Smiley" onClick={this.randomNb}>
+        //     <img src={this.state.iconSmiley} alt="smiley" />
+        // </div>
         );
     }
 }

@@ -15,5 +15,6 @@ code {
 .Smiley img {
   margin-top: 20em;
   margin-bottom: 20em;
- 
+ user-select: none;
+ cursor: pointer;
 }
